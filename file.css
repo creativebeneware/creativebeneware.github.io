@@ -1,0 +1,17 @@
+* {
+    box-sizing: border-box;
+}
+
+.all_columns {
+    float: left;
+    width: 25%;
+    padding: 12px;
+    min-height: 300;
+    text-align: center;
+}
+
+.all_rows:after {
+    content: "";
+    display: table;
+    clear: both;
+}
